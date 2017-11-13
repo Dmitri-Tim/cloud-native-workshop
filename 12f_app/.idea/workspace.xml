@@ -30,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/dmitritim/app/StockResource.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="433">
-              <caret line="77" column="18" lean-forward="false" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
+              <caret line="77" column="25" lean-forward="false" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2248#2249#0" expanded="true" />
@@ -38,7 +38,7 @@
                 <element signature="e#2423#2424#0" expanded="true" />
                 <element signature="e#2483#2484#0" expanded="true" />
                 <element signature="e#2576#2577#0" expanded="true" />
-                <element signature="e#2605#2606#0" expanded="true" />
+                <element signature="e#2610#2611#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -346,12 +346,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1510564208138</updated>
-      <workItem from="1510564212400" duration="11407000" />
+      <workItem from="1510564212400" duration="11597000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11407000" />
+    <option name="totallyTimeSpent" value="11597000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -488,7 +488,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/dmitritim/app/StockResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="433">
-          <caret line="77" column="18" lean-forward="false" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
+          <caret line="77" column="25" lean-forward="false" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2248#2249#0" expanded="true" />
@@ -496,7 +496,7 @@
             <element signature="e#2423#2424#0" expanded="true" />
             <element signature="e#2483#2484#0" expanded="true" />
             <element signature="e#2576#2577#0" expanded="true" />
-            <element signature="e#2605#2606#0" expanded="true" />
+            <element signature="e#2610#2611#0" expanded="true" />
           </folding>
         </state>
       </provider>
