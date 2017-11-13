@@ -1,0 +1,5 @@
+com\github\dmitritim\app\StockResource.class
+com\github\dmitritim\app\StockItemRepository.class
+com\github\dmitritim\app\domain\model\ItemType.class
+com\github\dmitritim\app\StockSpringBootStarter.class
+com\github\dmitritim\app\domain\model\StockItem.class

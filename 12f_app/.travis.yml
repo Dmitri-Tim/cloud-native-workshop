@@ -1,0 +1,11 @@
+language: java
+before_script: cd 12f_app
+script: mvn clean install
+deploy:
+  edge: true
+  provider: cloudfoundry
+  username: dmitri.timofejev@smit.ee
+  password: KOliki!12
+  api: https://api.run.pivotal.io
+  organization: SMIT
+  space: development
