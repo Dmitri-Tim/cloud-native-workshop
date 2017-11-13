@@ -29,8 +29,8 @@
       <file leaf-file-name="StockResource.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/dmitritim/app/StockResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+            <state relative-caret-position="433">
+              <caret line="77" column="18" lean-forward="false" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2248#2249#0" expanded="true" />
@@ -68,7 +68,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1.0.0__create_stock_table.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -346,12 +346,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1510564208138</updated>
-      <workItem from="1510564212400" duration="10622000" />
+      <workItem from="1510564212400" duration="11407000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10622000" />
+    <option name="totallyTimeSpent" value="11407000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -413,14 +413,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1.0.0__create_stock_table.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/dmitritim/app/domain/model/ItemType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -430,23 +422,6 @@
             <element signature="e#187#188#0" expanded="true" />
             <element signature="e#214#215#0" expanded="true" />
             <element signature="e#239#240#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/dmitritim/app/domain/model/StockItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-          <folding>
-            <element signature="e#736#737#0" expanded="true" />
-            <element signature="e#761#762#0" expanded="true" />
-            <element signature="e#794#795#0" expanded="true" />
-            <element signature="e#821#822#0" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
-            <element signature="e#919#920#0" expanded="true" />
-            <element signature="e#953#954#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -485,10 +460,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/dmitritim/app/domain/model/StockItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+          <folding>
+            <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1.0.0__create_stock_table.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/dmitritim/app/StockResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        <state relative-caret-position="433">
+          <caret line="77" column="18" lean-forward="false" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2248#2249#0" expanded="true" />

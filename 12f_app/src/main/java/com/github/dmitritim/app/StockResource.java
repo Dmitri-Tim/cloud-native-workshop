@@ -75,6 +75,6 @@ public class StockResource {
 
     @RequestMapping(value = "/ping", method = RequestMethod.GET)
     public String ping() {
-        return "Ping";
+        return "Pong";
     }
 }
