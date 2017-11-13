@@ -70,7 +70,7 @@ public class StockResource {
 
     @RequestMapping(value = "/get-env", method = RequestMethod.GET)
     public String getEnv(@RequestParam String env) {
-        return "Env" + " " + environment.getProperty(env);
+        return "Env " + environment.getProperty(env);
     }
 
     @RequestMapping(value = "/ping", method = RequestMethod.GET)
