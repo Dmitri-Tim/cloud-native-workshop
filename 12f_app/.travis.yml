@@ -5,6 +5,7 @@ deploy:
   edge: true
   provider: cloudfoundry
   username: dmitri.timofejev@smit.ee
+  password: KOliki!12
   api: https://api.run.pivotal.io
   organization: SMIT
   space: development
