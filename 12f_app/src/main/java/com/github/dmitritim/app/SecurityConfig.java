@@ -30,5 +30,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 .requestCache()
                 .requestCache(new NullRequestCache());
+
     }
 }
