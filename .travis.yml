@@ -8,5 +8,5 @@ deploy:
   password: KOliki!12
   api: https://api.run.pivotal.io
   organization: dmitri.tim.cloud
-  space: development
+  space: staging
 
