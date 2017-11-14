@@ -8,6 +8,7 @@ import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletResponse;
+import java.util.Random;
 
 @RestController
 @RequestMapping(value = "/stock", produces = MediaType.APPLICATION_JSON_VALUE)
@@ -76,5 +77,24 @@ public class StockResource {
     @RequestMapping(value = "/ping", method = RequestMethod.GET)
     public String ping() {
         return "Pong pong";
+    }
+
+    @RequestMapping(value = "/mnogabukav", method = RequestMethod.GET)
+    public String getMnogoTeksta() {
+        String output = "Start ";
+
+        for (int i = 0; i < 100000; i++) {
+            output += getRandomChar();
+        }
+
+        output += " End";
+
+        return output;
+    }
+
+    private String getRandomChar () {
+        Random rnd = new Random();
+        char chr = (char)(rnd.nextInt(60));
+        return String.valueOf(chr);
     }
 }
