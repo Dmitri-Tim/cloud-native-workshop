@@ -91,9 +91,14 @@ public class StockResource {
     @RequestMapping(value = "/mnogabukav", method = RequestMethod.GET)
     public String getMnogoTeksta() {
         String output = "Start ";
-
+        String somestring = "";
         for (int i = 0; i < 100000; i++) {
             output += getRandomChar();
+            somestring += getRandomChar()
+            if ( i%100==0 ) {
+                logger.info("Otkr6vaj boroda is here(id={}) ", id);
+                somestring="";
+            }
         }
 
         output += " End";
