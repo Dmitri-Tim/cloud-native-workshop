@@ -94,9 +94,9 @@ public class StockResource {
         String somestring = "";
         for (int i = 0; i < 100000; i++) {
             output += getRandomChar();
-            somestring += getRandomChar()
+            somestring += getRandomChar();
             if ( i%100==0 ) {
-                logger.info("Otkr6vaj boroda is here(id={}) ", id);
+                logger.info("Otkr6vaj boroda is here{} ", somestring);
                 somestring="";
             }
         }
